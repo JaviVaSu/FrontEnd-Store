@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">         <!--Bloque-->
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logo de la tienda">   <!--Elemento-->
+        </a>
+    </header>
+    
+    <nav class="navegacion">            <!--Bloque-->
+        <a class="navegacion__enlace" href="index.html">Tienda</a>           <!--Elemento y modificador-->
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>                                     <!--Elemento-->
+    </nav>
+
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at commodo leo. 
+                    Donec faucibus sem nulla, vitae mattis ex pellentesque at. Morbi gravida dictum aliquam. 
+                    Pellentesque nec nunc id nunc volutpat dignissim sit amet in leo. Etiam rutrum ipsum mauris, 
+                    nec faucibus neque viverra id. Suspendisse potenti. Morbi congue metus ut lorem bibendum sollicitudin 
+                    sit amet id neque. Quisque elementum tincidunt nisl, eu vehicula leo pharetra sit amet. 
+                    Vivamus ut lacus est. Vestibulum dignissim in felis at mattis.</p>
+
+                <p> Fusce dictum ullamcorper rhoncus. Fusce tempus magna a odio sollicitudin, eu feugiat ex 
+                    vehicula. Phasellus quis tristique arcu. Proin sed felis ut nulla condimentum ultrices. 
+                    Mauris et erat vitae ex facilisis tincidunt quis non justo. Nullam aliquet ipsum eget arcu 
+                    aliquam volutpat pharetra quis risus. Proin ac nulla enim. </p>
+            </div>
+            <img class="nosotros__imagen" src="img/nosotros.jpg" alt="Imagen nosotros">
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Porqué comprar con nosotros?</h2>
+
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="Porque comprar">
+                <h3 class="bloque__titulo">El Mejor Precio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at commodo leo. Donec faucibus sem nulla, vitae mattis ex pellentesque at. Morbi gravida dictum aliquam. </p>
+            </div>
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="Para devs">
+                <h3 class="bloque__titulo">Para DEVS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at commodo leo. Donec faucibus sem nulla, vitae mattis ex pellentesque at. Morbi gravida dictum aliquam. </p>
+            </div>
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="Envio gratis">
+                <h3 class="bloque__titulo">Envío Gratis</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at commodo leo. Donec faucibus sem nulla, vitae mattis ex pellentesque at. Morbi gravida dictum aliquam. </p>
+            </div>
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="La mejor calidad">
+                <h3 class="bloque__titulo">La mejor calidad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at commodo leo. Donec faucibus sem nulla, vitae mattis ex pellentesque at. Morbi gravida dictum aliquam. </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2024.</p>
+    </footer>
+</body>
+</html>
